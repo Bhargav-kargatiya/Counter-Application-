@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const startButton = document.getElementById("start-countdown");
     const pauseButton = document.getElementById("pause-countdown");
     const resumeButton = document.getElementById("resume-countdown");
-    const cancelButton = document.getElementById("cancel-countdown");
+    const cancelButton = document.getElementById("reset-countdown");
     //! Initial values
     let countdownTimer;
     let endTime;
