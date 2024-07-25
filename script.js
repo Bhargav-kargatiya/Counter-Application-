@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     //Function to display the message
     function displayMessage(message) {
-        const display = document.getElementById("timer-display");
+        const display = document.getElementById("message");
         display.textContent = message;
     }
     //Function to add event listeners to the buttons
